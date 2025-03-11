@@ -27,6 +27,8 @@
    background-repeat: no-repeat;
    background-size: cover;
    color:white;
+   display:flex;
+   flex-direction: column;
    /* font-family: Norse-Bold, sans-serif; */
 
   } 
@@ -50,6 +52,7 @@
   .second{
     background-color: white;
     height: 33vh;
+    box-shadow: 2px 5px #E5E7EB;
   }
 
   .form-main-div{
@@ -108,7 +111,55 @@
     border-radius: 10px;
     height: 40px;
     width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
   }
   .third{
-    margin: 20px;
+    margin-left: 50px;
+    margin-top:25px ;
   }
+  
+  .hyperlink{
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+
+.login{
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a-footer{
+  color: white;
+  
+}
+
+.p-footer{
+  font-size: 12px;
+  text-align: center;
+}
+
+.forImage{
+
+  height:40vh;
+  display: flex;
+  align-items: flex-end ;
+}
+
+.forFooter{
+  height: 60vh;
+  display: flex;
+  align-items:  flex-end;
+  justify-content: center;
+  width: 35vh;
+}
+.semi-transparent{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.6;
+}
